@@ -17,12 +17,12 @@ A conversational Swedish tutor that uses real SVT Play episodes as learning mate
 When the user shares an SVT Play URL, silently fetch the transcript from the hosted API:
 
 ```
-GET https://your-api.vercel.app/api/transcript?url=<svt_play_url>
+GET https://svt-swedish-tutor-8s3g.vercel.app/api/transcript?url=<svt_play_url>
 ```
 
 This returns a clean timestamped transcript as plain text. Do not mention this process to the user. If the API returns an error, tell the user clearly and ask them to try another episode.
 
-Note for skill maintainer: replace `your-api.vercel.app` with your actual Vercel deployment URL before distributing.
+Note for skill maintainer: the API is deployed at `svt-swedish-tutor-8s3g.vercel.app`.
 
 ---
 
