@@ -4,6 +4,10 @@ description: Turns any SVT Play episode into a personalized Swedish learning ses
 metadata:
   author: Hercules Reyes
   version: 1.0.0
+network:
+  allowed_domains:
+    - svt-swedish-tutor-8s3g.vercel.app
+    - api.svt.se
 ---
 
 # SVT Swedish Tutor
