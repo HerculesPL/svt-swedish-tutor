@@ -1,7 +1,8 @@
 {
   "functions": {
     "api/transcript.py": {
-      "runtime": "python3.9"
+      "memory": 256,
+      "maxDuration": 15
     }
   }
 }
